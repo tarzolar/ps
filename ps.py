@@ -39,7 +39,7 @@ categories = {
 # Specify the folder containing the PDFs
 pdf_folder = 'data'
 pdf_files = [f for f in os.listdir(pdf_folder) if f.endswith('.pdf')]
-
+a = 0
 # Extract text from PDFs
 def extract_texts_from_pdfs(pdf_folder, pdf_files):
     texts = {}
